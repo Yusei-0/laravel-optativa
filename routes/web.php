@@ -1,7 +1,6 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\ArchivoController;
 
 /*
 |--------------------------------------------------------------------------
@@ -19,14 +18,6 @@ Route::get('/', function () {
 });
 
 Route::resource('articulos', 'App\Http\Controllers\ArticuloController');
-Route::resource('archivo', 'App\Http\Controllers\ArchivoController');
-
-Route::get('/archivo/{id}/download', [ArchivoController::class, 'download'])->name('archivo.download');
-
-
-
-
-
 
 Route::middleware([
     'auth:sanctum',

@@ -322,6 +322,11 @@ return [
             'icon'        => 'fas fa-fw fa-file',
         
         ],
+        [
+            'text'        => 'Configuración',
+            'url'         => 'device',
+            'icon'        => 'fas fa-fw fa-cogs',   
+        ],
         ['header' => 'Configuración de la cuenta'],
         [
             'text' => 'Perfil de usuario',

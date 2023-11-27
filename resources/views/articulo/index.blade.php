@@ -1,6 +1,6 @@
 @extends('adminlte::page')
 
-@section('title', 'Repositorio-Inicio')
+@section('title', 'Proyecto con Laravel 8')
 
 @section('content_header')
     <h1>Listado de artículos</h1>
